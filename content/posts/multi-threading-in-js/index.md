@@ -74,7 +74,7 @@ This Service Worker script listens for the install event and logs network reques
 ---	
 
 *JavaScript Event Loop with web workers:*
-![JS Event Loop](/images/multi-threading-in-js-1.jpg)
+![JS Event Loop](multi-threading-in-js-1.jpg)
 
 
 ## Deeper Details about web workers
