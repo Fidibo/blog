@@ -1,7 +1,7 @@
 +++
 title = 'Unlocking Multi-Threading in JavaScript with Web Workers'
 date = 2024-08-04
-draft = true
+draft = false
 image = "multi-threading-in-js-2.png"
 +++
 
