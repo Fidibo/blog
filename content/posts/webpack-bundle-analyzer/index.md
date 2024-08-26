@@ -113,12 +113,12 @@ To bundle CSS or SCSS you can add additional rules in your config:
 
 4. Run using npm run webpack and you’ll get to the http://127.0.0.1:8888:
 
-![Webpack Bundle Analyzer in React](/images/webpack-bundle-analyzer-in-react-2.png)
+![Webpack Bundle Analyzer in React](webpack-bundle-analyzer-in-react-2.png)
 
 > As you can see, you can visualize the bundle size and its sub-modules depending on development or production mode;
 > You can also use the menu bar to switch between:
 
-![Webpack Bundle Analyzer in React](/images/webpack-bundle-analyzer-in-react-3.png)
+![Webpack Bundle Analyzer in React](webpack-bundle-analyzer-in-react-3.png)
 
 — stat that shows files before any optimization
 

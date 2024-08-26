@@ -46,10 +46,9 @@
     </header>
 
     <figure id="featureimage" class="rounded-xl aspect-video">
-
       {{- if .Params.image }}
 
-          <img class="rounded-lg" src="/images/{{ .Params.image }}" alt="{{ .Params.title }}">
+          <img class="rounded-lg" src="{{.Permalink}}{{ .Params.image }}" alt="{{ .Params.title }}">
 
       {{- end }}
 
