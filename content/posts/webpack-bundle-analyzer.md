@@ -1,7 +1,7 @@
 +++
 title = 'Webpack Bundle Analyzer in React'
 date = 2024-08-03
-draft = true
+draft = false
 image= 'webpack-bundle-analyzer-in-react-1.png'
 +++
 ## Definition:
