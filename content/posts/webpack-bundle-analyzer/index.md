@@ -1,9 +1,23 @@
-+++
-title = 'Webpack Bundle Analyzer in React'
-date = 2024-08-03
-draft = false
-image= 'webpack-bundle-analyzer-in-react-1.png'
-+++
+---
+title: 'Webpack Bundle Analyzer in React'
+date: 2024-08-03
+draft: false
+image: 'webpack-bundle-analyzer-in-react-1.png'
+categories:
+  - front-end
+tags:
+  - Webpack Bundle Analyzer
+  - React
+  - webpack
+author:
+  name: 'Farshad Darvishi'
+  image: 'farshad.jpg'
+  linkedin: 'https://www.linkedin.com/in/farshaddevelopment'
+  github: 'https://github.com/farshaddev'
+  mail: 'mailto:farshad.development@gmail.com'
+  site: 'https://www.farshaddarvishi.com'
+---
+
 ## Definition:
 Webpack Bundle Analyzer is a tool used to visualize the contents of your Webpack bundle(s) to optimize the size and performance of your web application.
 

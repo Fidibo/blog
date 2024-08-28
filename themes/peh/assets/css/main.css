@@ -1510,6 +1510,10 @@ video {
   padding-right: 5px;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .pt-4 {
   padding-top: 1rem;
 }
