@@ -16,6 +16,7 @@ author:
   github: 'https://github.com/farshaddev'
   mail: 'mailto:farshad.development@gmail.com'
   site: 'https://www.farshaddarvishi.com'
+  telegram: 'https://t.me/farshaddev'
 ---
 
 Since the beginning of my journey in the realm of front-end development, I always thought that JavaScript was strictly single-threaded. The idea of developing multi-threaded applications seemed out of reach, mainly because I didn't need it for the small calculations I was doing and thought more complex code would be too costly. I guess it wasn't very popular back then, and many developers might have faced the same limitations.
