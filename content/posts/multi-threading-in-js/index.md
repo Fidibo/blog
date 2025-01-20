@@ -24,7 +24,7 @@ I want to talk about web API services like service worker and web worker and use
 
 However, as web applications grew more sophisticated, the need for better performance and responsiveness became critical. This is where Web Workers come into play, allowing us to perform complex computations without blocking the main thread. In this article, I will explore Web API services like Service Worker and Web Worker and discuss useful libraries to enhance web app performance. So, let's dig into the code and get our hands dirty.
 
-# Understanding Web Workers
+## Understanding Web Workers
 
 Web Workers provide a way to run scripts in background threads. They are perfect for handling heavy computations, allowing the main thread to remain responsive. This means you can perform tasks like data processing, image manipulation, or other intensive tasks without causing the UI to freeze.
 
@@ -51,7 +51,7 @@ worker.postMessage(10); // Sending data to the worker
 
 In this example, we create a worker script (**worker.js**) that listens for messages, processes data, and sends the result back to the main script (**main.js**).
 
-## Enhancing Performance with Service Workers
+### Enhancing Performance with Service Workers
 
 Service Workers are a type of Web Worker that acts as a proxy between your web app and the network. They enable features like offline support, background sync, and push notifications, making them essential for Progressive Web Apps (**PWAs**).
 
@@ -90,13 +90,13 @@ This Service Worker script listens for the install event and logs network reques
 ![JS Event Loop](multi-threading-in-js-1.jpg)
 
 
-## Deeper Details about web workers
+### Deeper Details about web workers
 
 - **Thread Creation:** the browser spawns a separate thread. This is a system-level thread distinct from the main JavaScript execution thread. It has its execution context, meaning it does not share the same global variables or scope as the main thread.
 - **Isolation:** Each Web Worker operates in isolation from the main thread and other workers. They communicate with the main thread via a messaging system using the postMessage method and can handle messages through the onmessage event handler. This isolation ensures that the workers cannot directly access the DOM or other objects in the main execution context, thus providing a safe environment in which to perform concurrent tasks.
 - **Concurrency vs. Parallelism:** While JavaScript in the main thread runs on a single-threaded event loop, Web Workers enable true concurrency by running on separate threads. However, whether these threads run in parallel depends on the underlying system's hardware capabilities, such as the number of CPU cores.
 
-## Useful Libraries and Tools
+### Useful Libraries and Tools
 Several libraries and tools can help you leverage Web Workers and Service Workers more effectively:
 
 - **Comlink:** Simplifies communication with Web Workers by providing a concise API.
@@ -104,7 +104,7 @@ Several libraries and tools can help you leverage Web Workers and Service Worker
 - **TensorFlow.js:** For machine learning tasks in Web Workers.
 - **Partytown:** Helps offload third-party scripts to Web Workers, improving main thread performance.
 
-## Conclusion
+### Conclusion
 
 JavaScript multi-threading is no longer a myth. You can build highly performant and responsive web applications with Web Workers and Service Workers. By offloading heavy computations to background threads and enhancing offline capabilities, you can significantly improve the user experience of your web apps. Embrace these tools and take your front-end development skills to the next level.
 
