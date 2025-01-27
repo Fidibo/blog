@@ -9,6 +9,7 @@ tags:
     - load-testing
     - automate-testing
     - k6
+    - Kamkarha
 author:
     name: "Neda Sarvestani"
     image: "neda.jpg"
